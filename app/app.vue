@@ -1,7 +1,7 @@
 <script setup lang="ts">
-const { getUser } = useServerFunctions()
 
-const userResponse = await getUser()
+// The reponse type is unknown
+const userResponse = await useFetch('/api/user')
 </script>
 
 <template>

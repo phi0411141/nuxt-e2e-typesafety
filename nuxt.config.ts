@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['nuxt-server-fn'],
+  future: {
+    compatibilityVersion: 4,
+  }
 })

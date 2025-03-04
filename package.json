@@ -10,11 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.11.1",
+    "nuxt": "npm:nuxt-nightly@latest",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
-  },
-  "devDependencies": {
-    "nuxt-server-fn": "^0.3.4"
   }
 }
